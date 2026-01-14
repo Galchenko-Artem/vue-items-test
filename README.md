@@ -1,5 +1,29 @@
-# Vue 3 + Vite
+# Vue Items Test
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## Run
+```bash
+npm i
+npm run dev
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+Task logic
+
+    Left (user items): select 1..6 items, order is preserved.
+
+    Right (items to choose): select only 1 item.
+
+    Top blocks show current selections.
+
+
+---
+
+## Что удалить из шаблона Vite
+Если есть `src/components/HelloWorld.vue` и он не используется — удали его.
+
+---
+
+## Команды финальные (после внесения файлов)
+```bash
+npm run dev
+git add .
+git commit -m "feat: implement items selection ui (vue3 + vite)"
+git push
