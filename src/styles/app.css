@@ -1,0 +1,22 @@
+.page {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.page__title {
+  margin: 0 0 16px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+  margin-bottom: 18px;
+}
+
+@media (max-width: 820px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,12 @@
+@import "./app.css";
+@import "./panels.css";
+@import "./item-card.css";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
