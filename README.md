@@ -1,29 +1,26 @@
-# Vue Items Test
+# Vue Items Selection Test
+
+Test task implemented with Vue 3 and Vite.
 
 ## Run
 ```bash
-npm i
+npm install
 npm run dev
 
-Task logic
+Open http://localhost:5173
+Logic
 
-    Left (user items): select 1..6 items, order is preserved.
+    Left block (user items): select from 1 to 6 items, selection order is preserved.
 
-    Right (items to choose): select only 1 item.
+    Right block (items to choose): only one item can be selected at a time.
 
-    Top blocks show current selections.
+    Top blocks display current selections from bottom blocks.
 
+    Clear button resets the right selection.
 
----
+Notes
 
-## Что удалить из шаблона Vite
-Если есть `src/components/HelloWorld.vue` и он не используется — удали его.
+Implemented according to the provided UI scheme and task description.
+Tech stack
 
----
-
-## Команды финальные (после внесения файлов)
-```bash
-npm run dev
-git add .
-git commit -m "feat: implement items selection ui (vue3 + vite)"
-git push
+Vue 3, Vite, component-based architecture, plain CSS.
